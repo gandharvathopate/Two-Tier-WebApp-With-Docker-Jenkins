@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: '[https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)'
+                git branch: 'main', url: 'https://github.com/gandharvathopate/Two-Tier-WebApp-With-Docker-Jenkins'
             }
         }
         stage('Build Docker Image') {
